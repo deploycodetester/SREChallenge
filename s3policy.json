@@ -1,0 +1,19 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "s3prodbuildsaccesspolicy",
+            "Effect": "Allow",
+            "Action": [
+                "s3:*"
+            ],
+            "Resource": [
+                "arn:aws:s3:::bigprod/*",
+		"arn:aws:s3:::bigprod"
+            ]
+        }
+    ]
+}
+
+
+ 
